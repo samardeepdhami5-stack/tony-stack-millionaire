@@ -222,3 +222,20 @@ name, marks = "sam" , "20"
 # else:
 #     print("Result: Fail")
 
+# let num = 10
+
+# if num == 0:
+#     print("num is zero")
+# elif num < 0:
+#     print("-ve");
+# else:
+#     print("+ve")
+
+# num1=10;
+# num2=20;
+
+# if num1 > num2:
+#     print(f"{num1} is greater")
+# else:
+#     print(f"{num2} is greater")
+
