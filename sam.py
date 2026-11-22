@@ -317,13 +317,42 @@ name, marks = "sam" , "20"
 # else:
 #     print("You are not eligible for a loan")
 
-units = float(input("Enter units: "))
+# units = float(input("Enter units: "))
 
-if units <= 100:
-    bill = units * 5
-elif units <= 200:
-    bill = 500 + (units - 100) * 7
-else:
-    bill = 1200 + (units - 200) * 10
+# if units <= 100:
+#     bill = units * 5
+# elif units <= 200:
+#     bill = 500 + (units - 100) * 7
+# else:
+#     bill = 1200 + (units - 200) * 10
 
-print(f"Total Bill: ₹{bill:.2f}")
+# print(f"Total Bill: ₹{bill:.2f}")
+
+# print("hi i am samar")
+
+# while loop
+# a = 10
+# d = 0
+# while d < 10:
+#     print("hi i am samar",d);
+#     d+=1
+
+# for loop
+# for i in range(1,10,2):
+#     print(i)
+
+# reverse loop
+# for i in range(10,0,-1):
+#     print(i)
+
+# break and continue
+# for i in range (10):
+#     print(i)
+#     if(i==5):
+#         break
+
+for i in range (10):
+    if(i==5):
+        continue
+    print(i)
+    
