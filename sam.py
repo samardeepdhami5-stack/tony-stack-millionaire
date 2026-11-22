@@ -351,8 +351,12 @@ name, marks = "sam" , "20"
 #     if(i==5):
 #         break
 
-for i in range (10):
-    if(i==5):
-        continue
+# for i in range (10):
+#     if(i==5):
+#         continue
+#     print(i)
+
+for i in range(1, 11):
     print(i)
-    
+
+
