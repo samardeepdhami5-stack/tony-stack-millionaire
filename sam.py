@@ -239,3 +239,91 @@ name, marks = "sam" , "20"
 # else:
 #     print(f"{num2} is greater")
 
+# a,b,c=10,20,15;
+
+# if a > b and a > c:
+#     print("a is greatest");
+# elif b>a and b>c:
+#     print("b is greatest");
+# else:
+#     print("c is greatest");
+
+# age=int(input("18"))
+# if age < 13:
+#     print ("you are a child.")
+# elif age >=13 and age < 20:
+#     print("you are teenager")
+# else:
+#     print("you are a senior citizen")
+
+# num1 = int(input("Enter first number: "))
+# operator = input("Enter operator (+, -, *, /): ").strip()
+# num2 = int(input("Enter second number: "))
+
+# if operator == "+":
+#     print("Result:", num1 + num2)
+# elif operator == "-":
+#     print("Result:", num1 - num2)
+# elif operator == "*":
+#     print("Result:", num1 * num2)
+# elif operator == "/":
+#     if num2 != 0:
+#         print("Result:", num1 / num2)
+#     else:
+#         print("Error: Cannot divide by zero.")
+# else:
+#     print("Invalid operator! Please choose +, -, *, or /.")
+
+# num = int(input("Enter a number: "))
+# if 10 <= num <= 99:
+#     print("num is a two-digit number.")
+# elif 100 <= num <= 999:
+#     print("num is a three-digit number.")
+# elif 1000 <= num <= 9999:
+#     print("num is a four-digit number.")
+# else:
+#     print("num is not a two-digit, three-digit, or four-digit number.")
+
+# a, b, c = 20, 10, 30
+# middle = sorted([a, b, c])[1]
+# print(middle) 
+
+# a=int(input("enter first number"))
+# b=int(input("enter second number"))
+# c=int(input("enter third number"))
+# if a>b and a<c or a<b and a>c:
+#     print("Middle number is",a)
+# elif b>a and b<c or b<a and b>c:
+#     print("Middle number is",b)
+# else:
+#     print("Middle number is",c)
+
+# a = input("Enter a character: ")
+# if len(a) != 1:
+#     print("Please enter a single character.")
+# elif a.isupper():
+#     print("Uppercase letter")
+# elif a.islower():
+#     print("Lowercase letter")
+# elif a.isdigit():
+#     print("Digit")
+# else:
+#     print("Special character")
+
+# salary = int(input("Enter your salary"))
+# age = int(input("Enter your age"))
+# if salary>=25000 and age>=21 and age<=60:
+#     print("You are eligible for a loan")
+# else:
+#     print("You are not eligible for a loan")
+
+units = float(input("Enter units: "))
+
+if units <= 100:
+    bill = units * 5
+elif units <= 200:
+    bill = 500 + (units - 100) * 7
+else:
+    bill = 1200 + (units - 200) * 10
+
+print(f"Total Bill: ₹{bill:.2f}")
