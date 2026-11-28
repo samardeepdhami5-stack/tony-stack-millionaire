@@ -495,4 +495,35 @@ name, marks = "sam" , "20"
 
 # print("largest digit", largest)
 
+#Fibonacci series
 
+# num=5
+# a=0;
+# b=1;
+# for i in range(num):
+#     print(a,end=" ");
+#     a,b = b,a+b
+
+#nested loops
+# for min in range(0,2):
+#     print("mins",min)
+#     for sec in range(1,61):
+#         print("secs",sec)
+
+# for min in range(0,3):
+
+#     for sec in range(0,3):
+#         print("X",end=" ")
+        
+#     print("\n")
+
+# triangle
+# for outer in range(1,6):
+#     for inner in range(outer):
+#         print("X",end=" ")
+#     print()
+
+for outer in range (1,6):
+    for inner in range (outer):
+        print(f"{outer}",end="")
+        print() 
