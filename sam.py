@@ -356,7 +356,143 @@ name, marks = "sam" , "20"
 #         continue
 #     print(i)
 
-for i in range(1, 11):
-    print(i)
+# question
+# for i in range(1, 11):
+#     print(i)
+
+# for i in range(10, 0, -1):
+#     print(i)
+
+# for i in range(2, 101, 2):
+#     print(i)
+
+# for i in range(1, 101, 2):
+#     print(i)
+
+# n = int(input("Enter N: "))
+# total = 0
+
+# for i in range(1, n + 1):
+#     total += i
+# print("Sum:", total)
+
+# n = int(input("Enter N: "))
+# total = 0
+# for i in range(2, n + 1, 2):
+#     total += i
+# print("Sum of even numbers:", total)
+
+# n = int(input("Enter N: "))
+# total = 0
+# for i in range(1, n + 1, 2):
+#     total += i
+# print("Sum of odd numbers:", total)
+
+# num = int(input("Enter a number: "))
+# for i in range(1, 11):
+#     print(f"{num} x {i} = {num * i}")
+
+# for num in range(1, 11):
+#     print(f"--- Table of {num} ---")
+#     for i in range(1, 11):
+#         print(f"{num} x {i} = {num * i}")
+
+# num = int(input("Enter a number: "))
+# fact = 1
+# for i in range(1, num + 1):
+#     fact *= i
+# print("Factorial:", fact)
+
+# print 1 to 10
+# for i in range(10,0,-1):
+#     print(i)
+
+# for i in range(1,11):
+#     print(i)
+
+# for i in range(1,10):
+#     if i%2==0:
+#         print(i)
+
+# odd
+# for num in range(1, 101, 2):
+#   print(num)
+
+#even
+# for num in range(2, 101, 2):
+#     print(num)
+  
+# input 5
+# n=int(input("num"));
+# total=0;
+# for i in range("1,n+1"):
+#     total += i
+# print("total",total)
+
+# for i in range(1,11):
+#   print(f"{n} x {i} = {n"i"}")
+
+# n = 5  
+# factsum = 1
+# for i in range(1, n + 1):
+#   factsum *= i  
+# print(factsum)  
+
+
+# n = int(input("Enter a number: ")) 
+# n = abs(n)                        
+# count = 0
+# if n == 0:
+#     count = 1
+# else:
+#     while n > 0:
+#         count += 1
+#         n //= 10                   
+# print("num of digit:", count)
+
+# 123 ->321
+# reverse digit
+# n = int(input("enter the no"))
+# reverse = 0
+# while n > 0:
+#     digit = n % 10
+#     reverse = reverse * 10 + digit
+#     n //= 10
+# print(reverse)
+
+#palindrome
+# orignal==reverse
+# num = int(input("Enter a number: "))
+# if num < 0 or (num % 10 == 0 and num != 0):
+#     print(False)
+# else:
+#     reversed_num = 0
+#     original = num
+
+#     while num > 0:
+#         digit = num % 10
+#         reversed_num = reversed_num * 10 + digit
+#         num //= 10
+
+#     print(original == reversed_num)
+
+#prime no
+# no = int(input("Enter any number"))
+# if no%no or no%1==0:
+#     print("Number is not prime")
+# else:
+#     print("Number is prime")
+
+# find the largest number 
+# num = 1294
+# largest = 0
+
+# while num > 0:
+#     digit = num % 10
+#     if digit > largest:
+#         largest = digit
+#     num //= 10
+
+# print("largest digit", largest)
 
 
